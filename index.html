@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iPower Technology</title>
+  <title>iPower Technologies (pvt) Ltd</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="icon" href="icon.png" />
-  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="swiper-bundle.min.css">
@@ -47,12 +47,13 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle li-hover" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Dropdown link
+              Services
             </a>
             <ul class="dropdown-menu shadow">
-              <li class="li-hover"><a class="dropdown-item" href="#">Action</a></li>
-              <li class="li-hover"><a class="dropdown-item" href="#">Another action</a></li>
-              <li class="li-hover"><a class="dropdown-item" href="#">Something else here</a></li>
+              <li class="li-hover"><a class="dropdown-item" href="#">Services 01</a></li>
+              <li class="li-hover"><a class="dropdown-item" href="#">Services 02</a></li>
+              <li class="li-hover"><a class="dropdown-item" href="#">Services 03</a></li>
+              <li class="li-hover"><a class="dropdown-item" href="#">Services 04</a></li>
             </ul>
           </li>
 
@@ -90,7 +91,7 @@
 
       <!-- home swiper start -->
 
-      <div class="col-12 p-0" data-aos="fade-in">
+      <div class="col-12 p-0" style="margin-top: 60px !important;" data-aos="fade-in">
 
         <div class="swiper mySwiper3 position-relative">
           <div class="swiper-wrapper">
@@ -104,13 +105,16 @@
             <div class="swiper-slide">
               <img src="./Image/wirring.jpg" alt="" class="swiper-img" />
             </div>
-
+            
           </div>
-
+          
+          
           <div class="swiper-pagination"></div>
         </div>
 
+        
       </div>
+
 
       <!-- home swiper end -->
 
@@ -200,7 +204,7 @@
                 <div class="swiper-3">
                   <div class="row justify-content-end">
                     <p class="text-end me-5 c-pointer">
-                      <a href="/" class="text-black">
+                      <a href="./product.html" class="text-black">
                         view all <i class="fa fa-arrow-right"></i>
                       </a>
                     </p>
@@ -579,7 +583,7 @@
     </div>
   </div>
 
-  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
@@ -590,9 +594,9 @@
   <script>
     $(document).ready(function () {
 
-      // AOS.init({
-      //   duration: 1000,
-      // });
+      AOS.init({
+        duration: 1000,
+      });
 
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
