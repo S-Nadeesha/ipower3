@@ -979,9 +979,10 @@ a {
 
 .right-icon {
 
-    background-image: url("../img/right.png");
-    height: 40px;
-    width: 40px;
+    /* background-image: url("./Image/check.png"); */
+    height: 2rem;
+    width: 2rem;
+    /* z-index: 200; */
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -1131,45 +1132,42 @@ a {
 
 
 /*---------------------------------------------------------- about strat ----------------------------------------------------------*/
-.about-img {
-    background-image: url("../img/about+image\ \(1\).jpg");
-    height: 50vh;
-    width: 100vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
 
 .shap-about {
-    background: linear-gradient(to bottom, #5889eac6, #27ec41ea), url("../img/about+image\ \(1\).jpg");
+    /* background: linear-gradient(to bottom, #5889eac6, #27ec41ea); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 64px;
     height: 300px;
-    background-color: #73ededbc;
+    /* background-color: #80ff00; */
+    clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+.service-shap {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 64px;
+    height: 300px;
     clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
-.about-left-img {
-    background-image: url("../img/img2.png");
-    height: 200px;
 
+
+.service-img {
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
-
-.about-right-img {
-    background-image: url("../img/TItle-wide-2-1024x576.jpg");
-    height: 200px;
-
+.service {
+    height: 50vh;
+    width: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    background-attachment: fixed;
 }
 
 /*---------------------------------------------------------- about end ----------------------------------------------------------*/
