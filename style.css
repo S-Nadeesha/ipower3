@@ -12,6 +12,7 @@ html,
 body {
     position: relative;
     height: 100%;
+
 }
 
 
@@ -367,8 +368,8 @@ a {
 }
 @media (min-width:992px) {
     .logo {
-        margin-left: -60px;
-        height: 5rem !important;
+        margin-left: -40px;
+        height: 5.5rem !important;
 
     }
 
@@ -382,7 +383,7 @@ a {
     .ipower2 {
         margin-left: -40px;
         margin-top: -5px;
-        font-size: 15px;
+        font-size: 18px;
         color: #5f5f5f;
         font-style: italic;
     }
