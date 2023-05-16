@@ -501,7 +501,7 @@ a {
 }
 
 .swiper-img {
-    height: 70vh !important;
+    height: 600px !important;
     width: 100vw !important;
     filter: brightness(60%);
     -webkit-filter: brightness(60%);
